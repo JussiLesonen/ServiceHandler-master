@@ -7,8 +7,8 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class FileService {
-    static File fileStudents = new File("./log/backupStudents.txt");
-    static File fileCourses = new File("./log/backupCourses.txt");
+    static File fileStudents = new File("./backupStudents.txt");
+    static File fileCourses = new File("./backupCourses.txt");
 
     public void listBackupStudents() throws FileNotFoundException {
         Scanner scanner = new Scanner(fileStudents);
